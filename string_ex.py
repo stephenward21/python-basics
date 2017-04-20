@@ -1,40 +1,40 @@
-# stringer = "the string exercises"
-# print (stringer.upper())
-# print (stringer.title())
+#Uppercase and Capitalize
+stringer = "the string exercises"
+print (stringer.upper())
+print (stringer.title())
 
- # stringer = "the string exercises"
-# up_string = ""
-# for stringer in stringer:
-# 	up_string += stringer.upper()
-# print up_string
+stringer = "the string exercises"
+up_string = ""
+for stringer in stringer:
+	up_string += stringer.upper()
+print up_string
 
-
-# reverse_list = stringer.split(" ")
-# print reverse_list [::-1]
+#Reverse
+reverse_list = stringer.split(" ")
+print reverse_list [::-1]
 
 # Leetspeak
-# p_graph = ("There was an old lady who lived in a shoe.").upper()
-# result = ""
-# for letter in p_graph:
-# 	if (letter == "A"):
-# 		result =  result + "4"
-# 	if (letter == "E"):
-# 		result =  result + "3"
-# 	if (letter == "G"):
-# 		result =  result + "6"
-# 	if (letter == "I"):
-# 		result =  result + "1"
-# 	if (letter == "O"):
-# 		result =   result + "0"
-# 	if (letter == "S"):
-# 		result =  result + "5"
-# 	if (letter == "T"):
-# 		result =  result + "7"
-# 	else:
-# 		result = result + letter
+p_graph = ("There was an old lady who lived in a shoe.").upper()
+result = ""
+for letter in p_graph:
+	if (letter == "A"):
+		result =  result + "4"
+	if (letter == "E"):
+		result =  result + "3"
+	if (letter == "G"):
+		result =  result + "6"
+	if (letter == "I"):
+		result =  result + "1"
+	if (letter == "O"):
+		result =   result + "0"
+	if (letter == "S"):
+		result =  result + "5"
+	if (letter == "T"):
+		result =  result + "7"
+	else:
+		result = result + letter
 
-# print result
-
+print result
 
 
 
@@ -59,25 +59,5 @@ print (new_vow_word)
 	
 
 
-# stringer = "the string exercises"
-# up_string = ""
-# for stringer in stringer:
-# 	up_string += stringer.upper()
-# print up_string
-
-
-
-
-# stringer = "the string exercises"
-# stringer_whole = len(stringer)
-# cap_string = ""
-# for stringer in stringer:
-# print cap_string
-
-
-# print (stringer.upper())
-# print (stringer.title())
-
-# stringer = ["The string exercises"]
 
 
